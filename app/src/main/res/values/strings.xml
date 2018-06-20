@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Appodeal Demo</string>
+    <string name="app_name">Appodeal POC</string>
 
     <string name="sdkTextView">SDK v%s</string>
     <string name="disableNetworksButton">Disable</string>

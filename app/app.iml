@@ -98,11 +98,13 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-support" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javaPrecompile" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/multi-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/prebuild" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/reload-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/split-apk" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/splits-support" />
@@ -113,29 +115,26 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 26 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/Intowow Demo Project/appodeal-android-demo-master/app/libs/appodeal-2.3.3.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/appodealMediation/app/libs/ogury-2.1.15.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/appodealMediation/app/libs/flurry-ads-10.1.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement-15.0.1" level="project" />
     <orderEntry type="library" name="Gradle: mobvista-8.11.0-mvdownloads:@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-base-15.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/Intowow Demo Project/appodeal-android-demo-master/app/libs/applovin-8.0.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: mobvista-8.11.0-reward:@aar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/Intowow Demo Project/appodeal-android-demo-master/app/libs/android-job-1.2.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.android.support:multidex-1.0.1" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-lite-15.0.1" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:multidex-1.0.2" level="project" />
     <orderEntry type="library" name="Gradle: mobvista-8.11.0-nativeex:@aar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/Intowow Demo Project/appodeal-android-demo-master/app/libs/mailru-4.7.2.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-media-compat-26.1.0" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-annotations:26.1.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-v4-26.1.0" level="project" />
     <orderEntry type="library" name="Gradle: mobvista-8.11.0-mvnative:@aar" level="project" />
     <orderEntry type="library" name="Gradle: adcolony-sdk-3.3.0:@aar" level="project" />
     <orderEntry type="library" name="Gradle: mobvista-8.11.0-common:@aar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/appodealMediation/app/libs/chartboost-7.2.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: mobvista-8.11.0-videojs:@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:recyclerview-v7-26.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/Intowow Demo Project/appodeal-android-demo-master/app/libs/startapp-3.8.4.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:common:1.0.0@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/Intowow Demo Project/appodeal-android-demo-master/app/libs/cat-1.0.5.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-core-ui-26.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.android.support:multidex-instrumentation-1.0.2" level="project" />
     <orderEntry type="library" name="Gradle: mobvista-8.11.0-videofeeds:@aar" level="project" />
@@ -144,31 +143,34 @@
     <orderEntry type="library" name="Gradle: mobvista-8.11.0-mvjscommon:@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tasks-15.0.1" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-places-placereport-15.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/appodealMediation/app/libs/cat-1.0.5.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:customtabs-26.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/Intowow Demo Project/appodeal-android-demo-master/app/libs/flurry-ads-10.1.0.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/appodealMediation/app/libs/startapp-3.8.4.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/appodealMediation/app/libs/appodeal-2.3.3.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/appodealMediation/app/libs/inmobi-7.1.0.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/appodealMediation/app/libs/android-job-1.2.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-fragment-26.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/Intowow Demo Project/appodeal-android-demo-master/app/libs/chartboost-7.2.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.core:common:1.0.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-base-15.0.1" level="project" />
     <orderEntry type="library" name="Gradle: mobvista-8.11.0-alphab:@aar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/Intowow Demo Project/appodeal-android-demo-master/app/libs/yandex-metrica-2.80.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/appodealMediation/app/libs/yandex-metrica-2.80.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-gass-15.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/appodealMediation/app/libs/picasso-2.5.2.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: mobvista-8.11.0-interstitialvideo:@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-compat-26.1.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-gcm-15.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/appodealMediation/app/libs/unity_ads-2.1.2.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-identifier-15.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/appodealMediation/app/libs/mailru-4.7.2.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: mobvista-8.11.0-playercommon:@aar" level="project" />
     <orderEntry type="library" name="Gradle: mobvista-8.11.0-interstitial:@aar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/Intowow Demo Project/appodeal-android-demo-master/app/libs/picasso-2.5.2.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/Intowow Demo Project/appodeal-android-demo-master/app/libs/flurry-analytics-10.1.0.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/Intowow Demo Project/appodeal-android-demo-master/app/libs/ogury-2.1.15.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-location-15.0.1" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-stats-15.0.1" level="project" />
     <orderEntry type="library" name="Gradle: ce-lite-global-3.44.1:@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-iid-15.0.1" level="project" />
     <orderEntry type="library" name="Gradle: mobvista-8.11.0-videocommon:@aar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/Intowow Demo Project/appodeal-android-demo-master/app/libs/inmobi-7.1.0.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/Intowow Demo Project/appodeal-android-demo-master/app/libs/unity_ads-2.1.2.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/appodealMediation/app/libs/applovin-8.0.0.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/hungkuoxin/appodealMediation/app/libs/flurry-analytics-10.1.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:runtime-1.0.0" level="project" />
   </component>
 </module>

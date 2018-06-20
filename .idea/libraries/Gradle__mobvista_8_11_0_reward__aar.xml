@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: mobvista-8.11.0-reward:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mobvista-8.11.0-reward.aar/92392803d6f58f0799e5abb2a194308e/jars/libs/classes-2.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mobvista-8.11.0-reward.aar/92392803d6f58f0799e5abb2a194308e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mobvista-8.11.0-reward.aar/92392803d6f58f0799e5abb2a194308e/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
