@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+//apply from: 'https://raw.githubusercontent.com/intowow/ce-sdk-android-config/master/aar-config.gradle'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.intowow.crystalexpress.demo"
+        minSdkVersion 14
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dexOptions {
+        maxProcessCount 2
+        javaMaxHeapSize "2g"
+    }
+}
+
+repositories {
+    jcenter()
+    flatDir {
+        dirs 'libs-aar'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.android.support:multidex:1.0.1'
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+
+    implementation 'com.google.android.gms:play-services-ads:15.0.1'
+    implementation 'com.google.android.gms:play-services-location:15.0.1'
+    implementation 'com.google.android.gms:play-services-gcm:15.0.1'
+
+    implementation name: 'adcolony-sdk-3.3.0', ext: 'aar'
+    implementation name: 'mobvista-8.11.0-alphab', ext: 'aar'
+    implementation name: 'mobvista-8.11.0-common', ext: 'aar'
+    implementation name: 'mobvista-8.11.0-interstitial', ext: 'aar'
+    implementation name: 'mobvista-8.11.0-interstitialvideo', ext: 'aar'
+    implementation name: 'mobvista-8.11.0-mvdownloads', ext: 'aar'
+    implementation name: 'mobvista-8.11.0-mvjscommon', ext: 'aar'
+    implementation name: 'mobvista-8.11.0-mvnative', ext: 'aar'
+    implementation name: 'mobvista-8.11.0-nativeex', ext: 'aar'
+    implementation name: 'mobvista-8.11.0-playercommon', ext: 'aar'
+    implementation name: 'mobvista-8.11.0-reward', ext: 'aar'
+    implementation name: 'mobvista-8.11.0-videocommon', ext: 'aar'
+    implementation name: 'mobvista-8.11.0-videofeeds', ext: 'aar'
+    implementation name: 'mobvista-8.11.0-videojs', ext: 'aar'
+    implementation name: 'ce-lite-global-3.44.1', ext: 'aar'
+}
